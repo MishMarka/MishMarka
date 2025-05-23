@@ -1,0 +1,21 @@
+[build]
+  functions = "netlify/functions"
+  publish = "public"
+
+[dev]
+  functions = "netlify/functions"
+
+[[redirects]]
+  from = "/api/manga/create"
+  to = "/.netlify/functions/createManga"
+  status = 200
+
+[[redirects]]
+  from = "/api/manga/translate"
+  to = "/.netlify/functions/translateText"
+  status = 200
+
+[[redirects]]
+  from = "/api/manga/get"
+  to = "/.netlify/functions/getManga"
+  status = 200
