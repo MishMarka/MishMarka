@@ -11,7 +11,7 @@
   "dependencies": {
     "express": "^4.17.1",
     "supabase-js": "^1.28.0",
-    "axios": "^0.21.1",
+    "axios": "^1.9.0",
     "i18next": "^21.6.0",
     "i18next-express-middleware": "^3.0.2"
   },
